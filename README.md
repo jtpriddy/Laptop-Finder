@@ -1,3 +1,7 @@
 ## Laptop-Finder
 
 This finds the best value casual-usage laptops off of Wal-Mart's website.  
+
+WebScraper.js uses nightmare and cheerio to loop over every laptop's webpage and upload the specifications of those laptops into a sql database.  From this database queries can be run to find laptops.
+
+A React app was created as a front-end for querying the database.
